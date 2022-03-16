@@ -33,6 +33,32 @@ This project is about building a dashboard that allows the user to explore diffe
 - `app.py` contains codes to build up the dashboard application
 - `secret.py` contains connection strings/configurations to databses
 
+## Design/Implementation
+
+### `connectMySQL()`
+
+Returns a MySQL connection engine object
+
+### `connectMySQL()`
+
+Returns a MongoDB client object
+
+### `connectMySQL()`
+
+Returns a Neo4j graph object
+
+### `getInstitutes()`
+
+Returns a list of all institutes in academic world
+
+### `widget()`
+
+Returns a widget that's either a graph or html/bootstrap components
+
+### `updateWidget()`
+
+A callback that updates the widget
+
 ## Demo Video
 
 https://www.youtube.com/watch?v=3PMrDrggXD8
