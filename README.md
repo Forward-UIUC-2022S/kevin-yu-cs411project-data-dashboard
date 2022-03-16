@@ -22,3 +22,17 @@ This project is about building a dashboard that allows the user to explore diffe
 - Make sure to have pipenv installed
 - Run `pipenv shell` to activate the shell
 - Run `python app.py` to start the app
+- Open the dashboard in a browser using http://127.0.0.1:8050/
+
+```
+- kevin-yu-cs411project-data-dashboard
+    - app.py
+    - secret.py
+```
+
+- `app.py` contains codes to build up the dashboard application
+- `secret.py` contains connection strings/configurations to databses
+
+## Demo Video
+
+https://www.youtube.com/watch?v=3PMrDrggXD8
